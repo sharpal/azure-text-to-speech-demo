@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Text_to_Speech_Demo</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>Text-to-Speech-Demo</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CognitiveServices.Speech" Version="1.19.0" />
+  </ItemGroup>
+
+</Project>
